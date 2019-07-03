@@ -1,0 +1,11 @@
+<Configuration> 
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\wsb-usbdog</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>cmd.exe C:\Users\WDAGUtilityAccount\Desktop\wsb-usbdog\boot.bat</Command>
+  </LogonCommand>
+</Configuration>
