@@ -1,14 +1,17 @@
-# USBDog Windows Sandbox Launcher
+# BusDog Windows Sandbox Launcher
 
-This repository contains a Windows Sandbox Launcher which downloads and runs USBDog.
+This repository contains a Windows Sandbox Launcher which downloads and runs BusDog.
 
-USBDog doesn't seem to be able to run in Windows Sandbox.
+## Results
+
+BusDog doesn't seem to be able to run in Windows Sandbox.
 
 ## To-Do
 
 ### See if it will be possible to from a VM if not WSB
 
-Qemu or Hyper-V.
+https://github.com/TomasHubelbauer/hyperv
 
-Would redirect the given USB device to the VM.
-Script it up if possible.
+Spin up and down a temporary VM and redirect the given USB
+device to it, then execute BusDog and capture its output,
+transfer it outside of the VM and keep it.
